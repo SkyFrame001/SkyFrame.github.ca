@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyFrame - Drone and Real Estate Videography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo-transparent-png.png" alt="SkyFrame Logo">
+    </header>
+<div class="header">
+<div class="row">
+    <div class="col-2">
+        <h1>Give your Work<br>a New Style!</h1>
+        <p>Learn more about using drone in your fuild,<br>
+         like Real estate, industory or areal view of your work.</p>
+        <a href="service.html" class="btn">Explore now &#8594</a>
+    </div>
+    <div class="col-2">
+        <img src="content_M200_w__Z30.png">
+    </div>
+</div>
+</div>
+
+
+<div class="bgcolor">
+<div class="raw">
+    <div class="about">
+    <h1>About us</h1>
+
+    <p>our compony help you to make  real estate Videos or photography 3D design,<br>
+    we can help you to make industory use also or, what ever use you need we can help you<br>
+    We are exited to work with you or your industory.
+    </p> 
+</div>
+
+    <div class="realimg">
+    <img src="dji drone.webp">
+    </div>
+
+
+   
+
+</div>
+</div>
+
+
+
+
+
+    
+        <div class="container">
+            <div class="rew">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contect Me</h1>
+                    <P>Mo.(204) 671-1177</P>
+                    <p>Pateldharm482@gmail.com</p>
+                    
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                        <span id="msg"></span>
+                        <button type="submit" class="btn">submit</button>
+
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzYrN0h3-dp7OJIluE6rvWbNmjUWz8iMtta5KRHo2w7bT57Mxk1Fo1NSsYYV3hBYw_P/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form .reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+</html>

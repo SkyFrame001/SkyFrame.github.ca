@@ -1,0 +1,242 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 250px;
+    height: auto;
+    align-items: flex-start;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+    text-align: center; /* Center the text */
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    font-family: auto;
+}
+
+.col-2 p {
+    font-family: monospace;
+    font-size: x-large;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: large;
+}
+
+.btn:hover {
+    background-color: #563434;
+}
+
+.header {
+    background: radial-gradient(#fff, #5ff197);
+}
+
+.raw {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: space-around;
+}
+
+.about h1,
+.realimg {
+    flex-basis: 50%;
+    min-width: 300px;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+.about p{
+    font-family: revert;
+}
+
+.realimg img {
+    max-width: 100%;
+    padding: 50px 0; 
+}
+
+.about h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.about p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bgcolor {
+    background: radial-gradient(#fff, #5ff197);
+}
+
+.fram{
+    background: #563434;
+}
+
+
+.container{
+    background: #0c0707;
+    color: #fff;
+
+}
+
+.container h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    padding-left: 23px;
+    padding-top: 10px;
+}
+
+.container p{
+    font-size: medium;
+    padding-left: 26px;
+}
+
+
+.contect-right form{
+    width: 100%;
+}
+form{
+
+    align-items: flex-end;
+}
+
+.contect-left{
+    padding: 10px 10px;
+}
+form input, form textarea{
+    width: 15%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 5px 2px;
+    margin: -16px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 7px;
+
+}
+
+.contect-right{
+    display: flex-;
+    justify-content:  none;
+}
+
+.msg{
+    color: #e21313;
+    margin-top: -10px;
+    display: block;
+
+}
+
+.serv{
+    background: #000000;
+}
+
+
+.con{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+    line-height: 6px;
+    margin: 25px 0;
+    color: #ff523b;    
+}
+
+
+.realestate h2{
+    color: #5ff197;
+    font-size:xx-large;
+    font-family: system-ui;
+}
+.realestate img{
+    width: 400px;
+    padding: 10px 10px;
+    border-radius: 60px;
+
+}
+
+.realestate p{
+    font-size: large;
+    color: #fff;
+    padding: 20px 20px;
+    font-family: fangsong;
+}
+
+
+.industry h2{
+    color:#5ff197 ;
+    font-size: xx-large;
+    font-family: system-ui;
+}
+.industry img{
+    width: 600px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.industry p{
+    font-size: large;
+    color: #fff;
+    padding: 20px 20px;
+    font-family: fangsong;
+}
+
+.weddings h2{
+    color:#5ff197 ;
+    font-size: xx-large;
+    font-family: system-ui;
+}
+
+.weddings img{
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.weddings p{
+    font-size: large;
+    color: #fff;
+    padding: 20px 20px;
+    font-family: fangsong;
+}

@@ -81,7 +81,7 @@ background: radial-gradient(#fff,   #daf3f8);
     flex-basis: 50%;
     min-width: 300px;
     text-align: center;
-    font-family: cursive;
+    font-family: emoji;
 
 }
 
@@ -101,9 +101,7 @@ background: radial-gradient(#fff,   #daf3f8);
     margin: 25px 0;
 }
 
-.about p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 
 .bgcolor {
     background: radial-gradient(#fff,   #daf3f8);

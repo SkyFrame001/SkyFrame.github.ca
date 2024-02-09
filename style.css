@@ -66,12 +66,13 @@ header img {
 }
 
 .header {
-    background: radial-gradient(#fff, #5ff197);
+background: radial-gradient(#fff,   #daf3f8);
 }
 
 .raw {
     display: flex;
-    align-items: center; /* Center vertically */
+    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -85,7 +86,8 @@ header img {
 }
 
 .about p{
-    font-family: revert;
+    font-family: monospace;
+    font-size: x-large;
 }
 
 .realimg img {
@@ -104,7 +106,7 @@ header img {
 }
 
 .bgcolor {
-    background: radial-gradient(#fff, #5ff197);
+    background: radial-gradient(#fff,   #daf3f8);
 }
 
 .fram{
@@ -239,4 +241,14 @@ form input, form textarea{
     color: #fff;
     padding: 20px 20px;
     font-family: fangsong;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .col-2 {
+        flex-basis: 100%; /* Change flex basis to take full width */
+        min-width: unset; /* Remove minimum width */
+    }
+
 }

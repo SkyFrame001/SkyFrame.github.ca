@@ -88,6 +88,7 @@ background: radial-gradient(#fff,   #daf3f8);
 .about p{
     font-family: monospace;
     font-size: x-large;
+    margin-left: 10px;
 }
 
 .realimg img {
